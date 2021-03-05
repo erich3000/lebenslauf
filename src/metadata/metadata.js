@@ -2,10 +2,14 @@ module.exports = {
   name: 'Jens Ihrig',
   title: 'Senior Frontend Developer',
   facts: {
+    'Ak. Grad': 'Diplom Informatiker (FH)',
+    'Geburtstag': '09.01.1977',
     'Wohnort': 'Karlsruhe',
-    'Email': '<a href="mailto:jens.ihrig@mail.de">jens.ihrig@mail.de</a>'
+    'E-Mail': '<a href="mailto:jens.ihrig@mail.de">jens.ihrig@mail.de</a>',
+    
+
   },
-  skills: [
+  techskills: [
     ['HTML5', '+++++'],
     ['CSS3', '++++'],
     ['Javascript', '+++++'],
@@ -13,33 +17,54 @@ module.exports = {
     ['React', '+++++'],
     ['Redux', '+++'],
     ['Jest', '++'],
-    ['Cypress', '++'],
+    ['Cypress', '+'],
     ['Webpack', '+++'],
+    ['CI/DevOps', '+'],
+
   ],
-  plays: [
+
+  methodskills: [
+    ['Scrum', '+++'],
+    ['Kanban', '++'],
+    ['TDD', '+'],
+    ['XP', '+'],
+    ['DDD', '+'],
+  ],
+
+  jobs: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
+      title: 'Senior Frontend Developer & Teamlead',
+      company: 'ETECTURE GmbH, Karlsruhe',
+      datespan: 'Januar 2016 bis heute',
+      badges: ['react', 'javascript', 'html', 'css', 'scrum' , 'xp'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+#### Softwareentwicklung 
+
+* Agile Entwicklung von React.js Anwendungen für Kunden in der Automotive und Logistik-Branche
+* Konzeption und Entwicklung von Microfrontend-Architekturen und Frameworks für den konzernweiten Einsatz beim Kunden
+* Entwicklung von React UI Komponenten und Distribution per NPM für den konzernweiten Einsatz beim Kunden 
+* Entwicklung von Living Styleguides 
 `
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      title: 'Web-Developer',
+      company: 'Key-Work Consulting GmbH, Karlsruhe',
+      datespan: 'Juli 2003 bis Dezember 2015',
+      badges: ['javascript', 'html', 'css', 'kanban'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+* Konzeption und Entwicklung von Web-Anwendungen auf Basis von PHP, Java EE, OfBiz und Grails
+* Vorwiegend im Frontend-Bereich mittels HTML5, Javascript, JQuery, CSS3, Highcharts, JSP, Freemarker und GSP  
+* Vereinheitlichung, Standardisierung und Modernisierung der Web-Oberflächen von Anwendungen aus verschiedenen Systemen innerhalb von Portalen
+
+      `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
+      title: 'Praktikant IT Webdevelopment',
+      company: 'IBM e-business Innovation Center, Hamburg',
+      datespan: 'Juni 2001 - Oktober 2001',
+      badges: ['html', 'javascript', 'css'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      Entwicklung von Anwendungsoberflächen mittels HTML, CSS, Javascript und Flash`
     }
   ],
   experience: [

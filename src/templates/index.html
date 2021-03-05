@@ -13,9 +13,9 @@
 <div class="container page">
     <div class="row">
         <div class="col-md-6 col-print-6">
-            <h1>{{ name }}<br/>{{ title }}</h1>
+            <h1><b>{{ name }}</b><br/>{{ title }}</h1>
             <p>
-                <time datetime="{{ buildinfo.date }}" class="text-muted">Letztes Update: {{ updated }}</time>
+                <time datetime="{{ buildinfo.date }}" class="text-muted screen">Letztes Update: {{ updated }}</time>
             </p>
             <p>
                 <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>PDF version</a></span>
@@ -33,9 +33,21 @@
         </div>
     </div>
 
-    <h3 class="screen">Skills</h3>
+    <h3>Tech Skills</h3>
     <div class="row mb-4">
-        {{#each skills}}
+        {{#each techskills}}
+        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+            <small>{{ this.[0] }}</small>
+        </div>
+        <div class="col-print-1 col-3 col-md-2 col-lg-1">
+            {{ this.[1] }}
+        </div>
+        {{/each}}
+    </div>
+
+    <h3>Methodische Skills</h3>
+    <div class="row mb-4">
+        {{#each methodskills}}
         <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
             <small>{{ this.[0] }}</small>
         </div>
@@ -49,12 +61,13 @@
        
     </p>
 
-    <h2>Berufserfahrung</h2>
-    {{#each plays}}
+    <h2>Beruflicher Werdegang</h2>
+    {{#each jobs}}
     <div class="card mb-4">
         <div class="card-body">
             <h3>{{ title }}</h3>
-            <p class="text-muted">{{ written }}</p>
+            <h4>{{ company }}</h4>
+            <p class="text-muted">{{ datespan }}</p>
 
             {{{markdown contents }}}
 

@@ -26,7 +26,7 @@ const html = template({
   ...templateData,
   baseUrl: `https://${username()}.github.io/${repoName.sync()}`,
   pdfFileName,
-  updated: dayjs().format('MMMM D, YYYY'),
+  updated: dayjs().format('DD.MM.YYYY'),
 });
 fs.writeFileSync(outputDir + '/index.html', html);
 
