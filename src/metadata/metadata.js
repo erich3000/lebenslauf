@@ -10,18 +10,15 @@ module.exports = {
     'Email': '<a href="mailto:jens.ihrig@mail.de">jens.ihrig@mail.de</a>'
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['HTML5', '+++++'],
+    ['CSS3', '++++'],
+    ['Javascript', '+++++'],
+    ['Typescript', '++++'],
+    ['React', '+++++'],
+    ['Redux', '+++'],
+    ['Jest', '++'],
+    ['Cypress', '++'],
+    ['Webpack', '+++'],
   ],
   plays: [
     {
