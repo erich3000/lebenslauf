@@ -2,11 +2,7 @@ module.exports = {
   name: 'Jens Ihrig',
   title: 'Senior Frontend Developer',
   facts: {
-    'Residence': 'Karlsruhe',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
+    'Wohnort': 'Karlsruhe',
     'Email': '<a href="mailto:jens.ihrig@mail.de">jens.ihrig@mail.de</a>'
   },
   skills: [
