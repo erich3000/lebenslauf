@@ -18,7 +18,7 @@
                 <time datetime="{{ buildinfo.date }}" class="text-muted screen">Letztes Update: {{ updated }}</time>
             </p>
             <p>
-                <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>PDF version</a></span>
+                <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>PDF Version</a></span>
                 <span class="print">Die Online Version befindet sich hier: <a href="{{ baseUrl }}" class="text-nowrap"><i
                     class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
             </p>
@@ -33,10 +33,10 @@
         </div>
     </div>
 
-    <h3>Tech Skills</h3>
+    <h3>Technische Skills</h3>
     <div class="row mb-4">
         {{#each techskills}}
-        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right no-wrap">
             <small>{{ this.[0] }}</small>
         </div>
         <div class="col-print-1 col-3 col-md-2 col-lg-1">
@@ -48,7 +48,7 @@
     <h3>Methodische Skills</h3>
     <div class="row mb-4">
         {{#each methodskills}}
-        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right no-wrap" styles="margin-right:2px;">
             <small>{{ this.[0] }}</small>
         </div>
         <div class="col-print-1 col-3 col-md-2 col-lg-1">
@@ -80,10 +80,26 @@
     </div>
     {{/each}}
 
-    <h2>Education</h2>
-    <p>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</p>
+    <h2>Bildungsweg</h2>
+    {{#each education}}
+    <div class="card mb-4">
+        <div class="card-body">
+            <h3>{{ title }}</h3>
+            <h4>{{ org }}</h4>
+            <p class="text-muted">{{ datespan }}</p>
 
-    <h2>Additional Experience</h2>
+            {{{markdown contents }}}
+
+            <div>
+                {{#each badges }}
+                <span class="badge badge-primary">{{ this }}</span>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{/each}}
+
+    <h2>Sonstiges</h2>
 
     {{#each experience}}
     <div class="card mt-4">

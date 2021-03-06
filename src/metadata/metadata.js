@@ -5,27 +5,26 @@ module.exports = {
     'Ak. Grad': 'Diplom Informatiker (FH)',
     'Geburtstag': '09.01.1977',
     'Wohnort': 'Karlsruhe',
-    'E-Mail': '<a href="mailto:jens.ihrig@mail.de">jens.ihrig@mail.de</a>',
-    
-
+    'E-Mail': '<a href="mailto:lebenslauf@jensihrig.de">lebenslauf@jensihrig.de</a>',
   },
   techskills: [
     ['HTML5', '+++++'],
     ['CSS3', '++++'],
+    ['JSS', '++'],
     ['Javascript', '+++++'],
     ['Typescript', '++++'],
-    ['React', '+++++'],
-    ['Redux', '+++'],
+    ['React.js', '+++++'],
+    ['Redux', '++++'],
     ['Jest', '++'],
     ['Cypress', '+'],
     ['Webpack', '+++'],
     ['CI/DevOps', '+'],
-
   ],
 
   methodskills: [
-    ['Scrum', '+++'],
+    ['Scrum', '++++'],
     ['Kanban', '++'],
+    ['Clean Code', '++++'],
     ['TDD', '+'],
     ['XP', '+'],
     ['DDD', '+'],
@@ -36,14 +35,34 @@ module.exports = {
       title: 'Senior Frontend Developer & Teamlead',
       company: 'ETECTURE GmbH, Karlsruhe',
       datespan: 'Januar 2016 bis heute',
-      badges: ['react', 'javascript', 'html', 'css', 'scrum' , 'xp'],
+      badges: ['react', 'javascript', 'typescript' , 'html', 'css', 'scrum' , 'kanban' , 'xp', 'tdd' , 'ddd'],
       contents: `
 #### Softwareentwicklung 
 
-* Agile Entwicklung von React.js Anwendungen für Kunden in der Automotive und Logistik-Branche
-* Konzeption und Entwicklung von Microfrontend-Architekturen und Frameworks für den konzernweiten Einsatz beim Kunden
-* Entwicklung von React UI Komponenten und Distribution per NPM für den konzernweiten Einsatz beim Kunden 
-* Entwicklung von Living Styleguides 
+* Agile Entwicklung des Frontends mittels React.js und Freemarker Templates von diversen Anwendungen für Kunden in der Automotive und Logistik Branche
+* Konzeption und Entwicklung von Microfrontend-Architekturen und eines Microfrontend-Frameworks für den konzernweiten Einsatz beim Kunden
+* Umsetzung von Design Systemen in UI Bibliotheken und Distribution per NPM für den konzernweiten Einsatz beim Kunden 
+* Entwicklung von Living Styleguides (Eingenentwicklungen und mit Storybook)
+*	Zusammenarbeit mit UX-Experten, Designern und Informations Architekten
+* Projektübergreifende Koordination von internen und externen Teammitgliedern (Freelance, Nearshore, Offshore)
+* Beratung von Product Ownern und Projektleitern (intern und auf Kundenseite)
+
+
+#### Führung
+
+* Fachliche Führung von mehreren Mitarbeiter/innen in enger Abstimmung mit disziplinarischen Vorgesetzten und Personalabteilung
+* Durchführung von regelmäßigen Feedbackgesprächen
+* Auswahl und Unterstüzung bei Fort- und Weiterbildungsmaßnahmen
+*	Beratung beim Staffing von Projekten
+*	Beratung bei der Auswahl von Bewerbern und Freelance Kollegen
+
+#### Business Development
+
+* Mitbestimmung bei der technologischen und methodischen Ausrichtung des Standorts
+* Standortweite Prozessentwicklung (z.B. Staffing, Checkliste Best Practices für Projektdurchführung etc.)
+* Unterstützende technologische Einschätzung von New Business sowie Mitwirkung bei der Erstellung von Angeboten
+
+
 `
     },
     {
@@ -53,7 +72,7 @@ module.exports = {
       badges: ['javascript', 'html', 'css', 'kanban'],
       contents: `
 * Konzeption und Entwicklung von Web-Anwendungen auf Basis von PHP, Java EE, OfBiz und Grails
-* Vorwiegend im Frontend-Bereich mittels HTML5, Javascript, JQuery, CSS3, Highcharts, JSP, Freemarker und GSP  
+* Schwerpunkt dabei im Frontend-Bereich mittels HTML5, Javascript, JQuery, CSS3, Highcharts, JSP, Freemarker und GSP  
 * Vereinheitlichung, Standardisierung und Modernisierung der Web-Oberflächen von Anwendungen aus verschiedenen Systemen innerhalb von Portalen
 
       `
@@ -64,23 +83,64 @@ module.exports = {
       datespan: 'Juni 2001 - Oktober 2001',
       badges: ['html', 'javascript', 'css'],
       contents: `
-      Entwicklung von Anwendungsoberflächen mittels HTML, CSS, Javascript und Flash`
-    }
-  ],
-  experience: [
-    {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+Entwicklung von Anwendungsoberflächen mittels HTML, CSS, Javascript und Flash
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      title: 'Werkstudent',
+      company: 'net-solution GmbH, Heddesheim',
+      datespan: 'Januar 2000 - Dezember 2001',
+      badges: ['html', 'javascript', 'css'],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
+HTML- und Javascript-Entwicklung
 `
     }
+  ],
+
+
+  education: [{
+    title: 'Medieninformatik',
+    org: 'Fachhochschule Heidelberg',
+    datespan: 'Oktober 1999 - September 2002',
+    contents: `
+Diplomarbeit "Neuentwicklung und Bewertung von Interaktionselementen" unter der Betreuung der Usability-Abteilung der IBM Entwicklung GmbH, Böblingen
+`
+  },
+{
+  title: 'Kommunikationsinformatik',
+  org: 'Fachhochschule Harz, Wernigerode',
+  datespan: 'Oktober 1988 - Mai 1999',
+  contents: ``
+},
+{
+  title: 'Abitur',
+  org: 'Hebel Gymnasium, Schwetzingen',
+  datespan: '1987 - 1997',
+  contents: ``
+}
+],
+
+
+
+  experience: [
+    {
+      header: 'Sprachkenntnisse',
+      contents: `
+* Deutsch (C2)
+* Englisch (B2-C1) 
+`
+    },
+
+
+    {
+      header: 'Hobbies',
+      contents: `
+*	(elektronische) Musik
+*	Joggen
+*	Reisen
+*	Kochen und Foodblogging
+*	Fotografie
+      `
+    },
   ]
 };
