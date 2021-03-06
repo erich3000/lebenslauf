@@ -35,7 +35,7 @@ module.exports = {
       title: 'Senior Frontend Developer & Teamlead',
       company: 'ETECTURE GmbH, Karlsruhe',
       datespan: 'Januar 2016 bis heute',
-      badges: ['react', 'javascript', 'typescript' , 'html', 'css', 'scrum' , 'kanban' , 'xp', 'tdd' , 'ddd'],
+      badges: ['react', 'javascript', 'typescript' , 'html', 'css', 'scrum' , 'kanban' , 'cleancode', 'xp', 'tdd' , 'ddd'],
       contents: `
 #### Softwareentwicklung 
 
@@ -46,7 +46,6 @@ module.exports = {
 *	Zusammenarbeit mit UX-Experten, Designern und Informations Architekten
 * Projektübergreifende Koordination von internen und externen Teammitgliedern (Freelance, Nearshore, Offshore)
 * Beratung von Product Ownern und Projektleitern (intern und auf Kundenseite)
-
 
 #### Führung
 
@@ -61,15 +60,13 @@ module.exports = {
 * Mitbestimmung bei der technologischen und methodischen Ausrichtung des Standorts
 * Standortweite Prozessentwicklung (z.B. Staffing, Checkliste Best Practices für Projektdurchführung etc.)
 * Unterstützende technologische Einschätzung von New Business sowie Mitwirkung bei der Erstellung von Angeboten
-
-
 `
     },
     {
       title: 'Web-Developer',
       company: 'Key-Work Consulting GmbH, Karlsruhe',
       datespan: 'Juli 2003 bis Dezember 2015',
-      badges: ['javascript', 'html', 'css', 'kanban'],
+      badges: ['javascript', 'html', 'css', 'kanban', 'cleancode'],
       contents: `
 * Konzeption und Entwicklung von Web-Anwendungen auf Basis von PHP, Java EE, OfBiz und Grails
 * Schwerpunkt dabei im Frontend-Bereich mittels HTML5, Javascript, JQuery, CSS3, Highcharts, JSP, Freemarker und GSP  
