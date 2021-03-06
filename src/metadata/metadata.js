@@ -100,7 +100,7 @@ HTML- und Javascript-Entwicklung
     org: 'Fachhochschule Heidelberg',
     datespan: 'Oktober 1999 - September 2002',
     contents: `
-Diplomarbeit "Neuentwicklung und Bewertung von Interaktionselementen" unter der Betreuung der Usability-Abteilung der IBM Entwicklung GmbH, Böblingen
+Diplomarbeit "Neuentwicklung und Bewertung von Interaktionselementen" in der Usability-Abteilung der IBM Entwicklung GmbH, Böblingen
 `
   },
 {
