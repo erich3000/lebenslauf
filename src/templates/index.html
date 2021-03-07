@@ -26,8 +26,8 @@
         <div class="col-md-6 col-print-6">
             <dl class="row">
                 {{#each facts}}
-                <dt class="col-md-3">{{ @key }}</dt>
-                <dd class="col-md-9">{{{ this }}}</dd>
+                <dt class="col-md-3"><i class="fa fa-{{ icon }}" aria-hidden="true"></i>&nbsp;{{ @key }}</dt>
+                <dd class="col-md-9">{{{ text }}}</dd>
                 {{/each}}
             </dl>
         </div>

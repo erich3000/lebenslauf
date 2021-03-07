@@ -2,10 +2,22 @@ module.exports = {
   name: 'Jens Ihrig',
   title: 'Senior Frontend Developer',
   facts: {
-    'Ak. Grad': 'Diplom Informatiker (FH)',
-    'Geburtstag': '09.01.1977',
-    'Wohnort': 'Karlsruhe',
-    'E-Mail': '<a href="mailto:lebenslauf@jensihrig.de">lebenslauf@jensihrig.de</a>',
+    'Ak. Grad': { 
+        icon: 'graduation-cap',
+        text: 'Diplom Informatiker (FH)' 
+    },
+    'Geburtstag': { 
+        icon: 'asterisk',
+        text:  '09.01.1977'  
+    },
+    'Wohnort': { 
+        icon: 'home',
+        text: 'Karlsruhe' 
+    },
+    'E-Mail': { 
+        icon: 'envelope',
+        text: '<a href="mailto:lebenslauf@jensihrig.de">lebenslauf@jensihrig.de</a>' 
+    },
   },
   techskills: [
     ['HTML5', '+++++'],
