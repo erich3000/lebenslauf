@@ -118,7 +118,7 @@ Diplomarbeit "Neuentwicklung und Bewertung von Interaktionselementen" in der Usa
 {
   title: 'Kommunikationsinformatik',
   org: 'Fachhochschule Harz, Wernigerode',
-  datespan: 'Oktober 1988 - Mai 1999',
+  datespan: 'Oktober 1998 - Mai 1999',
   contents: ``
 },
 {
