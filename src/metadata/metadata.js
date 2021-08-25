@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Jens Ihrig',
-  title: 'Senior Frontend Developer',
+  title: 'Senior Frontend Engineer',
   facts: {
     'Ak. Grad': { 
         icon: 'graduation-cap',
@@ -12,7 +12,7 @@ module.exports = {
     },
     'Wohnort': { 
         icon: 'home',
-        text: 'Karlsruhe' 
+        text: 'Freiburg' 
     },
     'E-Mail': { 
         icon: 'envelope',
