@@ -12,7 +12,7 @@ module.exports = {
     },
     'Wohnort': { 
         icon: 'home',
-        text: 'Freiburg' 
+        text: 'Freiburg im Breisgau' 
     },
     'E-Mail': { 
         icon: 'envelope',
