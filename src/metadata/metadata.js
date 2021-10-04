@@ -58,6 +58,7 @@ module.exports = {
 *	Zusammenarbeit mit UX-Experten, Designern und Informations Architekten
 * Projektübergreifende Koordination von internen und externen Teammitgliedern (Freelance, Nearshore, Offshore)
 * Beratung von Product Ownern und Projektleitern (intern und auf Kundenseite)
+* Übernahme der Rolle des Technischen Product Owners in mehreren Projekten
 
 #### Führung
 
