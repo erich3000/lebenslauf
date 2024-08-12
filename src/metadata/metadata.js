@@ -16,7 +16,7 @@ module.exports = {
     },
     "E-Mail": {
       icon: "envelope",
-      text: '<a href="mailto:lebenslauf@jensihrig.de">lebenslauf@jensihrig.de</a>',
+      text: '<a href="mailto:jens.ihrig@mail.de">jens.ihrig@mail.de</a>',
     },
   },
   techskills: [
