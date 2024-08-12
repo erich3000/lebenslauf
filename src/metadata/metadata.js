@@ -43,7 +43,7 @@ module.exports = {
     ["Kanban", "+++"],
     ["Clean Code", "++++"],
     ["TDD", "++"],
-    ["XP/Pair Programming", "++"],
+    ["XP/Pair", "++"],
     ["DDD", "+"],
   ],
 
@@ -58,7 +58,8 @@ module.exports = {
 * Weiterentwicklung des Magnolia Frontends mittels HTML5, Javascript, CSS3, React, Preact, Webcomponents und Freemarker 
 * Mitglied der A11Y Taskforce, welche die Verbesserung der Barrierefreiheit von Portalen und der Unternehmenswebsite sowie die Festlegung von A11Y Standards für das Unternehmen zum Ziel hat
 * Relaunch und Redesign der Unternehmenswebsite
-* Herauslösen einzelner Assets wie z.B, der Fachhändlersuche oder des Vorteilsrechners als Web Componnets oder Microfrontends
+* Herauslösen einzelner Assets wie z.B, der Fachhändlersuche oder des Vorteilsrechners als Web Componets oder Microfrontends
+* Überführung des Teams in neue Product & Tech Orga als internes Plattformteam
 * Interims Teamlead Frontend Engineering
 * Beratung bei der Auswahl von Bewerbern
 * Durchführung von Bewerbungsgesprächen und Coding Interviews
