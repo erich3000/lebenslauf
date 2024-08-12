@@ -30,7 +30,8 @@
 }
 
 @media not print {
-  .print {
+  .print,
+  .screen {
     display: none;
   }
 
