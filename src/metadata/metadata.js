@@ -25,22 +25,25 @@ module.exports = {
     ["JSS", "++"],
     ["Javascript", "+++++"],
     ["Typescript", "++++"],
-    ["React.js", "++++"],
-    ["Redux", "++++"],
-    ["Jest", "++"],
+    ["React", "++++"],
+    ["Redux", "++"],
+    ["Svelte", "+"],
+    ["Jest", "+++"],
     ["Cypress", "++"],
+    ["Playwright", "++"],
     ["Webpack", "+++"],
+    ["Vite/Rollup", "++"],
     ["CI/DevOps", "+"],
-    ["Magnolia", "+"],
+    ["Magnolia CMS", "+"],
     ["HUGO/Golang", "++"],
   ],
 
   methodskills: [
     ["Scrum", "++++"],
-    ["Kanban", "++"],
+    ["Kanban", "+++"],
     ["Clean Code", "++++"],
-    ["TDD", "+"],
-    ["XP", "+"],
+    ["TDD", "++"],
+    ["XP/Pair Programming", "++"],
     ["DDD", "+"],
   ],
 
@@ -52,9 +55,10 @@ module.exports = {
       badges: ["javascript", "html", "css", "kanban", "cleancode", "magnolia"],
       contents: `
 * Technische Verantwortung und Betrieb der Unternehmenswebsite sowie des zugrunde liegenden Content Management Systems Magnolia als Mitglied des neu gegründeten CMS Platform Teams im Bereich Digitalisierung und Systeme
-* Weiterentwicklung des Magnolia Frontends mittels HTML5, Javascript, CSS3, React, Webcomponents und Freemarker 
+* Weiterentwicklung des Magnolia Frontends mittels HTML5, Javascript, CSS3, React, Preact, Webcomponents und Freemarker 
 * Mitglied der A11Y Taskforce, welche die Verbesserung der Barrierefreiheit von Portalen und der Unternehmenswebsite sowie die Festlegung von A11Y Standards für das Unternehmen zum Ziel hat
-* Relaunch und Redesign der Website
+* Relaunch und Redesign der Unternehmenswebsite
+* Herauslösen einzelner Assets wie z.B, der Fachhändlersuche oder des Vorteilsrechners als Web Componnets oder Microfrontends
 * Interims Teamlead Frontend Engineering
 * Beratung bei der Auswahl von Bewerbern
 * Durchführung von Bewerbungsgesprächen und Coding Interviews
@@ -195,7 +199,7 @@ Diplomarbeit "Neuentwicklung und Bewertung von Interaktionselementen" in der Usa
 *	Kochen und Foodblogging
 *	Reisen
 *	(elektronische) Musik
-*	Joggen
+*	Wandern. Radfahren, Joggen
       `,
     },
   ],
