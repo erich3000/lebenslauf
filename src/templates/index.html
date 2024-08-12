@@ -1,121 +1,150 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ name }}. {{ title }}</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="container page">
-    <div class="row">
-        <div class="col-md-6 col-print-6">
-            <h1><b>{{ name }}</b><br/>{{ title }}</h1>
-            <p>
-                <time datetime="{{ buildinfo.date }}" class="text-muted screen">Letztes Update: {{ updated }}</time>
-            </p>
-            <p>
-                <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>PDF Version</a></span>
-                <span class="print">Die Online Version befindet sich hier: <a href="{{ baseUrl }}" class="text-nowrap"><i
-                    class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
-            </p>
-        </div>
-        <div class="col-md-6 col-print-6">
-            <dl class="row">
-                {{#each facts}}
-                <dt class="col-md-3"><i class="fa fa-{{ icon }}" aria-hidden="true"></i>&nbsp;{{ @key }}</dt>
-                <dd class="col-md-9">{{{ text }}}</dd>
-                {{/each}}
-            </dl>
-        </div>
-    </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{{ name }}. {{ title }}</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container page">
+            <div class="row">
+                <div class="col-md-6 col-print-6">
+                    <h1><b>{{ name }}</b><br />{{ title }}</h1>
+                    <p>
+                        <time
+                            datetime="{{ buildinfo.date }}"
+                            class="text-muted screen"
+                            >Letztes Update: {{ updated }}</time
+                        >
+                    </p>
+                    <p>
+                        <span class="screen"
+                            ><a href="{{ pdfFileName }}"
+                                ><i
+                                    class="fa fa-file-pdf-o"
+                                    aria-hidden="true"
+                                ></i
+                                >PDF Version</a
+                            ></span
+                        >
+                        <span class="print"
+                            >Die Online Version befindet sich hier:
+                            <a href="{{ baseUrl }}" class="text-nowrap"
+                                ><i class="fa fa-github" aria-hidden="true"></i
+                                >{{ baseUrl }}</a
+                            ></span
+                        >
+                    </p>
+                </div>
+                <div class="col-md-6 col-print-6">
+                    <dl class="row">
+                        {{#each facts}}
+                        <dt class="col-md-3">
+                            <i class="fa fa-{{ icon }}" aria-hidden="true"></i
+                            >&nbsp;{{ @key }}
+                        </dt>
+                        <dd class="col-md-9">{{{ text }}}</dd>
+                        {{/each}}
+                    </dl>
+                </div>
+            </div>
 
-    <h3>Technische Skills</h3>
-    <div class="row mb-4">
-        {{#each techskills}}
-        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right no-wrap">
-            <small>{{ this.[0] }}</small>
-        </div>
-        <div class="col-print-1 col-3 col-md-2 col-lg-1">
-            {{ this.[1] }}
-        </div>
-        {{/each}}
-    </div>
-
-    <h3>Methodische Skills</h3>
-    <div class="row mb-4">
-        {{#each methodskills}}
-        <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right no-wrap" styles="margin-right:2px;">
-            <small>{{ this.[0] }}</small>
-        </div>
-        <div class="col-print-1 col-3 col-md-2 col-lg-1">
-            {{ this.[1] }}
-        </div>
-        {{/each}}
-    </div>
-
-    <p>
-       
-    </p>
-
-    <h2>Beruflicher Werdegang</h2>
-    {{#each jobs}}
-    <div class="card mb-4">
-        <div class="card-body">
-            <h3>{{ title }}</h3>
-            <h4>{{ company }}</h4>
-            <p class="text-muted">{{ datespan }}</p>
-
-            {{{markdown contents }}}
-
-            <div>
-                {{#each badges }}
-                <span class="badge badge-primary">{{ this }}</span>
+            <h3>Technische Skills</h3>
+            <div class="row mb-4">
+                {{#each techskills}}
+                <div
+                    class="col-print-1 col-3 col-md-2 col-lg-1 text-right no-wrap"
+                >
+                    <small>{{ this.[0] }}</small>
+                </div>
+                <div class="col-print-1 col-3 col-md-2 col-lg-1">
+                    {{ this.[1] }}
+                </div>
                 {{/each}}
             </div>
-        </div>
-    </div>
-    {{/each}}
 
-    <h2>Bildungsweg</h2>
-    {{#each education}}
-    <div class="card mb-4">
-        <div class="card-body">
-            <h3>{{ title }}</h3>
-            <h4>{{ org }}</h4>
-            <p class="text-muted">{{ datespan }}</p>
-
-            {{{markdown contents }}}
-
-            <div>
-                {{#each badges }}
-                <span class="badge badge-primary">{{ this }}</span>
+            <h3>Methodische Skills</h3>
+            <div class="row mb-4">
+                {{#each methodskills}}
+                <div
+                    class="col-print-1 col-3 col-md-2 col-lg-1 text-right no-wrap"
+                    styles="margin-right:2px;"
+                >
+                    <small>{{ this.[0] }}</small>
+                </div>
+                <div class="col-print-1 col-3 col-md-2 col-lg-1">
+                    {{ this.[1] }}
+                </div>
                 {{/each}}
             </div>
-        </div>
-    </div>
-    {{/each}}
 
-    <h2 class="place-on-next-page">Sonstige Kenntnisse & Hobbies</h2>
+            <p></p>
 
-    {{#each experience}}
-    <div class="card mt-4">
-        <div class="card-body">
-            <div class="mb-2"><strong>{{ header }}</strong></div>
+            <h2>Beruflicher Werdegang</h2>
+            {{#each jobs}}
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>{{ title }}</h3>
+                    <h4>{{ company }}</h4>
+                    <p class="text-muted">{{ datespan }}</p>
 
-            {{{markdown contents }}}
+                    {{{markdown contents }}}
 
-            <div>
-                {{#each skills }}
-                <span class="badge badge-primary">{{ this }}</span>
-                {{/each}}
+                    <div>
+                        {{#each badges }}
+                        <span class="badge badge-primary">{{ this }}</span>
+                        {{/each}}
+                    </div>
+                </div>
             </div>
+            {{/each}}
+
+            <h2>Bildungsweg</h2>
+            {{#each education}}
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3>{{ title }}</h3>
+                    <h4>{{ org }}</h4>
+                    <p class="text-muted">{{ datespan }}</p>
+
+                    {{{markdown contents }}}
+
+                    <div>
+                        {{#each badges }}
+                        <span class="badge badge-primary">{{ this }}</span>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+
+            <h2 class="place-on-next-page">Sonstige Kenntnisse & Hobbys</h2>
+
+            {{#each experience}}
+            <div class="card mt-4">
+                <div class="card-body">
+                    <div class="mb-2"><strong>{{ header }}</strong></div>
+
+                    {{{markdown contents }}}
+
+                    <div>
+                        {{#each skills }}
+                        <span class="badge badge-primary">{{ this }}</span>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+            {{/each}}
         </div>
-    </div>
-    {{/each}}
-</div>
-</body>
+    </body>
 </html>
