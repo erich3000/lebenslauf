@@ -31,7 +31,10 @@ const html = template({
 fs.writeFileSync(outputDir + '/index.html', html);
 
 buildPdf = async function (inputFile, outputFile) {
-  const browser = await Puppeteer.launch();
+  const browser = await Puppeteer.launch({
+    // Required for GitHub-hosted Linux runners where Chromium sandboxing is restricted.
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  });
   const page = await browser.newPage();
   await page.goto(`file://${inputFile}`, {
     waitUntil: 'networkidle0'
