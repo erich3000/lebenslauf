@@ -63,16 +63,16 @@ module.exports = {
         "magnolia",
       ],
       contents: `
-* Technische Verantwortung und Betrieb der Unternehmenswebsite, Portalstartseiten sowie des zugrunde liegenden CMS Magnolia als Mitglied des neu gegründeten Content Hub Teams
-* Weiterentwicklung des Magnolia Frontends mittels HTML5, Javascript, CSS3, React, Preact, Webcomponents und Freemarker 
+* Technische Verantwortung und Betrieb der Unternehmenswebsite, Portalstartseiten sowie des zugrunde liegenden CMS Magnolia als Mitglied des neu gegründeten Teams "Content Hub"
+* Weiterentwicklung des Magnolia-Frontends mittels HTML5, Javascript, CSS3, React, Preact, Webcomponents und Freemarker 
 * Redesign und Relaunch der Unternehmenswebsite und deren spätere Übergabe an einen externen Dienstleister
-* Herauslösen einzelner Features wie z.B der Fachhändlersuche als Web-Components oder Microfrontends
+* Herauslösen einzelner Features wie z.B. der Fachhändlersuche als Webcomponents oder Microfrontends
 * Überführung der Portalstartseiten in Headless Magnolia mit einem React-Frontend
-* Mitglied der A11Y Taskforce, welche die Optimierung der Barrierefreiheit aller digitalen Produkte anstrebt
-* Maintainer der React Implementierung des Jobrad Designsystems "Peloton"
-* Interims-Teamlead Frontend Engineering
+* Mitglied der A11Y-Taskforce, welche die Optimierung der Barrierefreiheit aller digitalen Produkte anstrebt
+* Mitglied des teamübergreifenden Maintainer-Teams der React-Implementierung des JobRad-Designsystems "Peloton"
+* Interims-Teamlead Frontend-Engineering
 * Beratung bei der Auswahl von Bewerbern
-* Durchführung von Bewerbungsgesprächen und Coding Interviews
+* Durchführung von Bewerbungsgesprächen und Coding-Interviews
       `,
     },
     {
