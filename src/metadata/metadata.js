@@ -69,7 +69,7 @@ module.exports = {
 * Überführung der Portalstartseiten in Headless Magnolia mit einem React-Frontend
 * Mitglied der A11Y-Taskforce, welche die Optimierung der Barrierefreiheit aller digitalen Produkte anstrebt
 * Mitglied des teamübergreifenden Maintainer-Teams der React-Implementierung des JobRad-Designsystems "Peloton"
-* Mitarbeit bei der KI gestüzten Design-to-Code Initiative
+* Mitarbeit bei der KI-gestützten Initiative "Design-to-Code"
 * Interims-Teamlead Frontend-Engineering
 * Beratung bei der Auswahl von Bewerbern
 * Durchführung von Bewerbungsgesprächen und Coding-Interviews
