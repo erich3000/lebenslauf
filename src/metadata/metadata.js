@@ -26,12 +26,10 @@ module.exports = {
     ["Javascript", "+++++"],
     ["Typescript", "++++"],
     ["React", "++++"],
-    ["Redux", "++"],
+    ["Redux", "+"],
     ["Svelte", "+"],
     ["Jest", "+++"],
-    ["Cypress", "++"],
     ["Playwright", "++"],
-    ["Webpack", "+++"],
     ["Vite/Rollup", "++"],
     ["CI/DevOps", "+"],
     ["Magnolia CMS", "+"],
@@ -58,7 +56,8 @@ module.exports = {
         "typescript",
         "html",
         "css",
-        "kanban",
+        "react",
+        "scrum",
         "cleancode",
         "magnolia",
       ],
@@ -70,6 +69,7 @@ module.exports = {
 * Überführung der Portalstartseiten in Headless Magnolia mit einem React-Frontend
 * Mitglied der A11Y-Taskforce, welche die Optimierung der Barrierefreiheit aller digitalen Produkte anstrebt
 * Mitglied des teamübergreifenden Maintainer-Teams der React-Implementierung des JobRad-Designsystems "Peloton"
+* Mitarbeit bei der KI gestüzten Design-to-Code Initiative
 * Interims-Teamlead Frontend-Engineering
 * Beratung bei der Auswahl von Bewerbern
 * Durchführung von Bewerbungsgesprächen und Coding-Interviews
