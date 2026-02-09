@@ -2,7 +2,7 @@
 
 See: https://erich3000.github.io/lebenslauf/
 
-# Based on the Curriculum Vitae Template
+## Based on the Curriculum Vitae Template
 
 See: https://github.com/sneas/cv-template/
 

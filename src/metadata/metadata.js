@@ -45,6 +45,7 @@ module.exports = {
     ["TDD", "++"],
     ["XP/Pair", "++"],
     ["DDD", "+"],
+    ["Agentic Coding", "+"],
   ],
 
   jobs: [
@@ -62,13 +63,14 @@ module.exports = {
         "magnolia",
       ],
       contents: `
-* Technische Verantwortung und Betrieb der Unternehmenswebsite sowie des zugrunde liegenden Content Management Systems Magnolia als Mitglied des neu gegründeten CMS Platform Teams im Bereich Digitalisierung und Systeme
+* Technische Verantwortung und Betrieb der Unternehmenswebsite, Portalstartseiten sowie des zugrunde liegenden CMS Magnolia als Mitglied des neu gegründeten Content Hub Teams
 * Weiterentwicklung des Magnolia Frontends mittels HTML5, Javascript, CSS3, React, Preact, Webcomponents und Freemarker 
-* Mitglied der A11Y Taskforce, welche die Verbesserung der Barrierefreiheit von Portalen und der Unternehmenswebsite sowie die Festlegung von A11Y Standards für das Unternehmen zum Ziel hat
-* Relaunch und Redesign der Unternehmenswebsite
-* Herauslösen einzelner Assets wie z.B der Fachhändlersuche oder des Vorteilsrechners als Web Components oder Microfrontends
-* Überführung des Teams in die neue Product & Tech Organisation als internes Plattformteam
-* Interims Teamlead Frontend Engineering
+* Redesign und Relaunch der Unternehmenswebsite und deren spätere Übergabe an einen externen Dienstleister
+* Herauslösen einzelner Features wie z.B der Fachhändlersuche als Web-Components oder Microfrontends
+* Überführung der Portalstartseiten in Headless Magnolia mit einem React-Frontend
+* Mitglied der A11Y Taskforce, welche die Optimierung der Barrierefreiheit aller digitalen Produkte anstrebt
+* Maintainer der React Implementierung des Jobrad Designsystems "Peloton"
+* Interims-Teamlead Frontend Engineering
 * Beratung bei der Auswahl von Bewerbern
 * Durchführung von Bewerbungsgesprächen und Coding Interviews
       `,
